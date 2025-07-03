@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello we are learning js</h1>
+
+    <h2>working with strigs (quotes)</h2>
+    <p id="text"></p>
+
+    <h3>arithematic operation</h3>
+    <p>addition (5+2): <span id="additionresult"></span></p>
+    <p>subtraction (5-2): <span id="subtractionresult"></span></p>
+    <p>multiplication (5*2): <span id="multiplicationresult"></span></p>
+    <p>division (5/2):<span id="divisionresult"></span></p>
+
+    <script>
+
+        var a= "welcome to codingal";
+        var b="learn about values amd types";
+
+        document.getElementById("text").innerHTML=a+"<br>"+b;
+
+        var x=10
+        var y=5
+
+        var sum =x+y;
+        var difference =x-y;
+        var product =x*y;
+        var quotient =x/y;
+
+        document.getElementById("additionresult").innerHTML =sum;
+        document.getElementById("subtractionresult").innerHTML = difference;
+        document.getElementById("multiplicationresult").innerHTML = product;
+        document.getElementById("divisionresult").innerHTML = quotient;
+    </script>
+    
+</body>
+</html>
